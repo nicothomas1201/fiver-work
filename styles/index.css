@@ -1,0 +1,20 @@
+@import url("./wrapper.css");
+@import url("./header.css");
+
+:root{
+  --black-10: #245657;
+  --black-20: #0D1D1E;
+  --green: #02BD56;
+  --white-10: #FFFFFF;
+  --white-20: #FFFCF9;
+  --body1-bold: 700 15px/18.29px Montserrat; 
+}
+
+
+body,
+html{
+  background-color: var(--white-10);
+  color: var(--black-10);
+  margin: 0;
+  scroll-behavior: smooth;
+}
