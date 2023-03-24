@@ -1,15 +1,18 @@
 .hero-bg{
   block-size: 100vh;
-  background-color: var(--white-20);
+  background: url('../assets/hero-bg-texture.png');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   max-block-size: 480px;
-  padding-block: 110px;
+  position: relative;
+  /* padding-block: 110px; */
   /* border: 1px solid red; */
 }
 
 .hero{
   display: flex;
   align-items: center;
-  position: relative;
   gap: 27px;
   box-sizing: border-box;
   overflow: hidden;
@@ -53,13 +56,12 @@
 .hero .hero-imageBg{
   position: absolute;
   /* Este es para mi computador*/
-  right: -400px; 
-  /* Este es para pantallas grandes */
-  /* right: 0; */
+  max-inline-size: 550px;
+  right: 0;
   block-size: 480px;
   inline-size: 100%;
-  max-inline-size: 700px;
-  /* border: 1px solid red; */
   background: url('../assets/bg-hero.png');
+  background-repeat: no-repeat;
+  background-size: 100%; 
 }
 

@@ -1,0 +1,30 @@
+.skill-section{
+  display: flex;
+  justify-content: space-between;
+  padding-block-start: 92px;
+  padding-block-end: 50px;
+  gap: 41px;
+}
+
+.skill-section img{
+  vertical-align: middle;
+}
+
+.skill-section .skill-card{
+  inline-size: 100%;
+}
+
+.skill-card .card-title{
+  font: var(--heading3-semibold );
+  color: var(--black-10);
+  margin-block-start: 30px;
+  margin-block-end: 15px;
+}
+
+.skill-card .card-description{
+  font: var(--body1-light);
+  font-size: 12px;
+  color: var(--black-20);
+  margin-block-start: 0;
+  margin-block-end: 30px;
+}
