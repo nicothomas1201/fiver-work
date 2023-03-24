@@ -1,5 +1,6 @@
 @import url("./wrapper.css");
 @import url("./header.css");
+@import url("./hero.css");
 
 :root{
   --black-10: #245657;
@@ -7,7 +8,11 @@
   --green: #02BD56;
   --white-10: #FFFFFF;
   --white-20: #FFFCF9;
+  --heading1: 600 50px/61px Montserrat;
   --body1-bold: 700 15px/18.29px Montserrat; 
+  --body1-regular: 400 15px/18.29px Montserrat; 
+  --body1-light: 300 15px/18.29px Montserrat; 
+  --body1-medium: 500 15px/18.29px Montserrat; 
 }
 
 
