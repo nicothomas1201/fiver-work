@@ -12,6 +12,7 @@
   position: relative;
   gap: 27px;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .hero .hero-span{
@@ -51,13 +52,14 @@
 
 .hero .hero-imageBg{
   position: absolute;
-  right: 0;
+  /* Este es para mi computador*/
+  right: -400px; 
+  /* Este es para pantallas grandes */
+  /* right: 0; */
   block-size: 480px;
   inline-size: 100%;
   max-inline-size: 700px;
-  object-fit: cover;
+  /* border: 1px solid red; */
+  background: url('../assets/bg-hero.png');
 }
 
-.hero .hero-imageBg img{
-  vertical-align: middle;
-}
