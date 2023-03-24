@@ -10,6 +10,19 @@
   /* border: 1px solid red; */
 }
 
+.hero-bg .icon-header-calendar{
+  position: absolute;
+  top: 0;
+  right: 225px;
+  z-index: 2;
+  transform: translateY(-50%);
+
+}
+
+.hero-bg .icon-header-calendar img{
+  vertical-align: middle;
+}
+
 .hero{
   display: flex;
   align-items: center;
