@@ -42,7 +42,7 @@
   margin-block: 50px;
 }
 
-.hero .hero-link{
+.hero-link{
   font: var(--body1-bold);
   color: var(--green);
   text-decoration: none;

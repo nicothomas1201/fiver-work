@@ -1,0 +1,49 @@
+@import url("./about-details.css");
+
+.about{
+  padding-block-start: 88px;
+  padding-block-end: 71px;
+}
+
+.about-title{
+  font: var(--heading2-light);
+  color: var(--black-10);
+  margin-block-start: 0;
+  margin-block-end: 56px;
+}
+
+.about-main{ 
+  display: flex;
+  align-items: center;
+  color: var(--black-10);
+  gap: 29px;
+}
+
+.about-image{
+  background: #EFEFEF;
+  border-radius: 50%;
+}
+
+.about-image img{
+  vertical-align: middle;
+}
+
+.about-content .about-content-title{
+  font: var(--heading3-semibold);
+  margin: 0;
+  margin-block-end: 15px;  
+} 
+
+.about-content .about-content-subtitle{
+  font: var(--body1-medium);
+  margin: 0;
+  margin-block-end: 40px;
+}
+
+.about-content .about-content-text{
+  font: var(--body1-regular);
+  font-size: 12px;
+  margin: 0;
+  margin-block-end: 44px;
+}
+

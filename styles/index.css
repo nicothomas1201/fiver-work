@@ -3,6 +3,7 @@
 @import url("./hero.css");
 @import url("./skill-section.css");
 @import url("./quote.css");
+@import url("./about.css");
 
 :root{
   --black-10: #245657;
@@ -12,6 +13,8 @@
   --white-20: #FFFCF9;
   --red: #FF3D00;
   --heading1: 600 50px/61px Montserrat;
+  --heading2-bold: 700 30px/36.57px Montserrat; 
+  --heading2-light: 300 30px/36.57px Montserrat; 
   --heading3-semibold: 600 20px/24.38px Montserrat; 
   --body1-bold: 700 15px/18.29px Montserrat; 
   --body1-regular: 400 15px/18.29px Montserrat; 

@@ -1,0 +1,21 @@
+.about-details-list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-block-end: 43px;
+}
+
+.about-detail{
+  text-align: center;
+  color: var(--black-10);
+}
+
+.about-detail .about-detail-number{
+  font: var(--heading2-bold);
+  margin: 0;
+  margin-block-end: 9px;  
+}
+
+.about-detail .about-detail-label{
+  font: var(--body1-regular);
+}
