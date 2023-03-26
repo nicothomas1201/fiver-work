@@ -5,6 +5,7 @@
 @import url("./quote.css");
 @import url("./about.css");
 @import url("./daily-quote.css");
+@import url("./five-steps.css");
 
 :root{
   --black-10: #245657;
@@ -18,10 +19,12 @@
   --heading2-light: 300 30px/36.57px Montserrat; 
   --heading2-regular: 400 30px/36.57px Montserrat; 
   --heading3-semibold: 600 20px/24.38px Montserrat; 
+  --heading3-regular: 400 20px/24.38px Montserrat; 
   --body1-bold: 700 15px/18.29px Montserrat; 
   --body1-regular: 400 15px/18.29px Montserrat; 
   --body1-light: 300 15px/18.29px Montserrat; 
   --body1-medium: 500 15px/18.29px Montserrat; 
+  --body1-semibold: 600 15px/18.29px Montserrat; 
 }
 
 
