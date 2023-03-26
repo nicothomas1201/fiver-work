@@ -12,6 +12,7 @@
 @import url("./quote-author.css");
 @import url("./successful-section.css");
 @import url("./packages-section.css");
+@import url("./footer.css");
 
 :root{
   --black-10: #245657;
