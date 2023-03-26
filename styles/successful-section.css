@@ -1,13 +1,46 @@
 .successful-section{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 100px);
-  grid-template-areas: "title title" "colum1 column2" "column3 column4";
+  grid-template-rows: repeat(3, max-content);
+  grid-template-areas: "title title";
   padding-block-start: 101px;
+  padding-block-end: 137px;
+  row-gap: 45px;
+  column-gap: 35px;
 }
 
 .successful-section .successful-title{
   margin: 0;
   font: var(--heading2-light);
   grid-area: title;
+}
+
+.successful-card{
+  display: flex;
+  gap: 20px;
+}
+
+.successful-card .successful-img{
+  block-size: auto;
+  max-block-size: 110px;
+  inline-size: 100%;
+  max-inline-size: 110px;
+  aspect-ratio: 1/1;
+  background-image: url('../assets/avatar-1.png');
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  margin-block-start: 27px;
+}
+
+.successful-card .successful-text{
+  font: var(--body1-light);
+  margin: 0;
+  margin-block-end: 10px;
+  margin-block-start: 49px;
+}
+
+.successful-content .quote-author{
+  margin-inline-start: 30px;
 }
