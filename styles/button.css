@@ -19,3 +19,16 @@
   border-radius: 47px;
   background-color: transparent;
 }
+
+.button-icon{
+  background-color: var(--green);
+  border: none;
+  border-radius: 50%;
+  inline-size: 30px;
+  block-size: 30px;
+  box-sizing: border-box;
+}
+
+.button-icon img{
+  vertical-align: middle;
+}

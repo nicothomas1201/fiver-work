@@ -1,0 +1,15 @@
+@import url("./calendar.css");
+
+.appointment-section{
+  text-align: center;
+  padding-block-start: 117px;
+  padding-block-end: 49px;
+  border-block-end: 2px solid var(--red);
+}
+
+.appointment-title{
+  font: var(--heading2-light);
+  color: var(--black-10);
+  margin-block-start: 0;
+  margin-block-end: 77px;
+}

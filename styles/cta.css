@@ -1,0 +1,45 @@
+.cta-bg{
+  background-color: var(--white-20);
+}
+
+.cta{
+  text-align: center;
+  padding-block-start: 55px;
+  padding-block-end: 47px;
+}
+
+.cta .cta-title{
+  position: relative;
+  font: var(--heading2-light);
+  margin: 0;
+  /* margin-block-end: 50px; */
+}
+
+.cta .line-spread{
+  inline-size: 100%;
+  border: 1px solid var(--red);
+  margin-block-start: 52px;
+  margin-block-end: 30px;
+}
+
+.cta .cta-subtitle{
+  margin-block-start: 0;
+  font: var(--heading3-regular);
+  color: #000;
+  margin-block-end: 43px;
+}
+
+.cta .cta-form{
+  display: flex;
+  gap: 21px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-form .cta-input-form{
+  padding: 11.42px 14px;
+  border: 1px solid #EAEAEA;
+  background-color: var(--white-10);
+  font: var(--body1-light);
+  color: var(--green-10);
+}
