@@ -20,5 +20,12 @@
   max-inline-size: 563px;
   border: none;
   cursor: pointer;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px; 
+}
+
+.footer .to-top img{
+  vertical-align: middle;
 }

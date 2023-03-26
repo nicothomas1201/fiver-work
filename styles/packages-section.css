@@ -105,6 +105,7 @@
   /* border: 1px solid red; */
   background-color: var(--green);
   color: var(--white-10);
+  position: relative;
 }
 
 .package-card.green .package-card-price{
@@ -117,4 +118,22 @@
 
 .package-card.green .button-secondary{
   background-color: var(--white-10);
+}
+
+.package-card.green::after{
+  content: "Top!";
+  position: absolute;
+  border-radius: 50%;
+  inline-size: 42px;
+  block-size: 42px;
+  background-color: #009E65;
+  /* vertical-align: middle; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  right: 7px;
+  transform: translateY(-50%);
+  font: var(--body1-regular);
+  font-size: 12px;
 }
