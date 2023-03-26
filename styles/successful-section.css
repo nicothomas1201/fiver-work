@@ -1,0 +1,13 @@
+.successful-section{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  grid-template-areas: "title title" "colum1 column2" "column3 column4";
+  padding-block-start: 101px;
+}
+
+.successful-section .successful-title{
+  margin: 0;
+  font: var(--heading2-light);
+  grid-area: title;
+}

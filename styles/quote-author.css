@@ -1,0 +1,29 @@
+.quote-author{
+  font: var(--body1-bold);
+  color: var(--black-10);
+  position: relative;
+  text-transform: uppercase;
+}
+
+.quote-author::after{
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  content: '';
+  width: 15px;
+  /* block-size: 2px; */
+  border: 2px solid var(--red);
+  margin-inline-start: 15px;
+}
+
+.quote-author::before{
+  position: absolute;
+  top: 50%;
+  transform: translate(-100%, -50%);
+  content: '';
+  width: 15px;
+  border: 2px solid var(--red);
+  left: -15px;
+  /* margin-inline-end: -15px; */
+  /* transform: translateX(-100%); */
+}
