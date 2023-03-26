@@ -6,6 +6,7 @@
 @import url("./about.css");
 @import url("./daily-quote.css");
 @import url("./five-steps.css");
+@import url("./button.css");
 
 :root{
   --black-10: #245657;

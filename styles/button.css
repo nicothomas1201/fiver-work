@@ -1,0 +1,21 @@
+.button-primary{
+  text-transform: uppercase;
+  font: var(--body1-bold);
+  color: var(--white-10);
+  background-color: var(--green);
+  padding: 18px 32px;
+  cursor: pointer;
+  border-radius: 47px;
+  border: 1px solid var(--green);
+}
+
+.button-secondary{
+  cursor: pointer;
+  padding: 18px 32px;
+  margin: 0;
+  color: var(--green);
+  font: var(--body1-regular);
+  border: 2px solid var(--green);
+  border-radius: 47px;
+  background-color: transparent;
+}
