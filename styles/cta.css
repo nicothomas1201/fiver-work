@@ -17,7 +17,7 @@
 
 .cta .line-spread{
   inline-size: 100%;
-  border: 1px solid var(--red);
+  border: .5px solid var(--red);
   margin-block-start: 52px;
   margin-block-end: 30px;
 }

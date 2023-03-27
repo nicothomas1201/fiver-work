@@ -4,7 +4,7 @@
   text-align: center;
   padding-block-start: 117px;
   padding-block-end: 49px;
-  border-block-end: 2px solid var(--red);
+  border-block-end: .5px solid var(--red);
 }
 
 .appointment-title{
