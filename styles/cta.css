@@ -42,4 +42,12 @@
   background-color: var(--white-10);
   font: var(--body1-light);
   color: var(--green-10);
+  box-sizing: border-box;
+  block-size: 48px;
+}
+
+.cta-form .button-primary{
+  box-sizing: border-box;
+  max-block-size: 48px;
+  padding-block: 15px;
 }
