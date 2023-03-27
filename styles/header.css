@@ -1,9 +1,28 @@
 .header{
+  padding-block-start: 11px;
+  padding-block-end: 28px;
+}
+
+.header-info-contact{
+  display: flex;
+  justify-content: end;
+  gap: 31px;
+  margin-block-end: 10px;
+}
+
+.header-info-contact .text{
+  font: var(--body1-regular);
+  font-size: 12px;
+  color: #738A8A;
+}
+
+.header-content-container{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block: 28px;
 }
+
+
 
 .header-list{
   display: flex;
