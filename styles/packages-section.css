@@ -26,9 +26,14 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 33.5px;
+  gap: 18.5px;
   color: #738A8A;
   font: var(--body1-regular);
+}
+
+.package-info-list li{
+  border-block-end: 0.5px solid #E9E9E9;
+  padding-block-end: 15px;
 }
 
 .package-cards-container{
@@ -127,7 +132,6 @@
   inline-size: 42px;
   block-size: 42px;
   background-color: #009E65;
-  /* vertical-align: middle; */
   display: flex;
   align-items: center;
   justify-content: center;
