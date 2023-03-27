@@ -1,6 +1,7 @@
 .quote{
   text-align: center;
   padding-block: 50px;
+  background-color: var(--white-20);
 }
 
 .quote .quote-text{
