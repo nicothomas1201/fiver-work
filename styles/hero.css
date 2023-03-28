@@ -6,8 +6,6 @@
   background-repeat: no-repeat;
   max-block-size: 480px;
   position: relative;
-  /* padding-block: 110px; */
-  /* border: 1px solid red; */
 }
 
 .hero-bg .icon-header-calendar{
@@ -29,6 +27,8 @@
   gap: 27px;
   box-sizing: border-box;
   overflow: hidden;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
 }
 
 .hero .hero-span{
@@ -51,16 +51,16 @@
 
 .hero .hero-person{
   inline-size: 100%;
-  max-inline-size: 359px;
-  /* block-size: auto; */
   overflow: hidden;
   object-fit: contain;
   block-size: 480px;
   position: relative;
   z-index: 1;
+  flex: 1;
 }
 
 .hero .hero-person img{
+  max-inline-size: 359px;
   vertical-align: top;
   position: absolute;
   bottom: 0;
@@ -78,3 +78,27 @@
   background-size: 100%; 
 }
 
+/* dispositivos de mas de 1617px */
+
+
+/* dispositivos de mas de 1438px */
+@media screen and (min-width: 1438px){
+  .hero .hero-imageBg{
+    max-inline-size: 550px;
+  }
+}
+
+@media screen and (min-width: 1617px) {
+  
+  .hero .hero-person{
+    text-align: end;
+  }
+  .hero .hero-person img{
+    transform: translateX(-150%);
+  }
+  .hero .hero-imageBg{
+    max-inline-size: 600px;
+    
+  }
+  
+}
