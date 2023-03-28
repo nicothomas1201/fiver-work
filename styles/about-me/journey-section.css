@@ -1,0 +1,28 @@
+.journey-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding-block-start: 90px;
+  padding-block-end: 96px;
+}
+
+.journey-content{
+  max-inline-size: 485px;
+  inline-size: 100%;
+}
+
+.journey-title{
+  font: var(--heading2-light);
+  margin: 0;
+  margin-block-end: 26px;
+}
+
+.journey-content-text{
+  font: var(--body1-regular);
+  font-size: 12px;
+  margin: 0;
+}
+
+.journey-video video{
+  border: 1px solid red
+}
