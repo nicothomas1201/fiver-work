@@ -1,0 +1,16 @@
+.about-cards{
+  display: flex;
+  justify-content: space-between;
+  inline-size: 100%;
+  background-color: var(--green);
+  padding-block: 35px;
+  padding-inline: 34px;
+}
+
+.about-cards .blocks{
+  inline-size: 100%;
+  max-inline-size: 210px;
+  block-size: 100vh;
+  max-block-size: 170px;
+  background-color: #D9D9D9;
+}
