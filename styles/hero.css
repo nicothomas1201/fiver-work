@@ -36,6 +36,7 @@
   color: var(--green);
   text-decoration: none;
   border-block-end: 2px solid var(--green);
+  text-transform: uppercase;
 } 
 
 .hero .hero-person{

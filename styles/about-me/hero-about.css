@@ -1,0 +1,48 @@
+.hero-about{
+  padding-block: 88px 95px;
+}
+
+.hero-about-title{
+  font: var(--heading2-light);
+  color: #738A8A;
+  margin: 0;
+  margin-block-end: 111px;
+}
+
+.hero-about .hero-about-main{
+  display: flex;
+  gap: 56px;
+  align-items: center;
+  padding-inline-start: 35px;
+}
+
+.hero-about-main .hero-about-img{
+  max-inline-size: 202px;
+  inline-size: 100%;
+}
+
+.hero-about-img img{
+  vertical-align: middle;
+}
+
+.hero-about-content{
+  color: var(--black-10);
+}
+
+.hero-about-content .hero-content-title{
+  font: var(--heading3-semibold);
+  margin: 0;
+  margin-block-end: 14px;
+}
+
+.hero-about-content .hero-content-subtitle{
+  font: var(--body1-medium);
+  margin-block-start: 14px;
+}
+
+.hero-about-content .hero-content-text{
+  font: var(--body1-regular);
+  font-size: 12px;
+  margin-block-start: 41px;
+  margin-block-end: 54px;
+}
