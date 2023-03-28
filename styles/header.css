@@ -1,3 +1,7 @@
+.header-bg{
+  background-color: var(--white-20);
+}
+
 .header{
   position: relative;
   padding-block-start: 11px;
