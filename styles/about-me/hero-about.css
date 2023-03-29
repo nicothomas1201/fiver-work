@@ -6,8 +6,11 @@
 .hero-header{
   /* border: 1px solid red; */
   padding-block-end: 19px;
-  margin-block-end: 92px;
   border-block-end: 0.5px solid #E8E8E8;
+}
+
+.hero-about .hero-header{
+  margin-block-end: 92px;
 }
 
 .hero-title{

@@ -1,0 +1,35 @@
+.hero-change{
+  padding-block: 88px 43px;
+  border-block-end: 0.5px solid #E9E9E9;
+}
+
+.hero-change-main .hero-main-title{
+  font: var(--heading2-light);
+  text-align: center;
+  margin-block: 42px 89px;
+}
+
+.hero-change-circles-section{
+  display: flex;
+  gap: 9px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-circle-group .hero-change-circle{
+  max-inline-size: 200px;
+  inline-size: 100%;
+  max-block-size: 200px;
+  block-size: 100vh;
+  border: 25px solid var(--white-20);
+  border-radius: 50%;
+}
+
+.hero-circle-group .hero-circle-text{
+  /* border: 1px solid red ; */
+  font: var(--heading3-light);
+  color: var(--black-10);
+  margin-block: 0;
+  margin-block-start: 19px; 
+  text-align: center;
+}
