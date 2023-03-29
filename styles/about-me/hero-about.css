@@ -1,12 +1,20 @@
 .hero-about{
   padding-block: 88px 95px;
+  /* border: 1px solid red; */
 }
 
-.hero-about-title{
+.hero-header{
+  /* border: 1px solid red; */
+  padding-block-end: 19px;
+  margin-block-end: 92px;
+  border-block-end: 0.5px solid #E8E8E8;
+}
+
+.hero-title{
   font: var(--heading2-light);
   color: #738A8A;
   margin: 0;
-  margin-block-end: 111px;
+  /* margin-block-end: 111px; */
 }
 
 .hero-about .hero-about-main{
