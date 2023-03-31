@@ -1,0 +1,24 @@
+.cta-change{
+  background-color: var(--green);
+  color: var(--white-10);
+  text-align: center;
+  padding-block: 84px;
+  max-inline-size: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  align-items: center;
+  justify-content: center;
+  margin-block-end: 96px;
+}
+
+.cta-change-title{
+  margin: 0;
+  font: var(--heading2-regular);
+}
+
+.cta-change .button-secondary{
+  border-color: var(--white-10);
+  color: inherit;
+  text-transform: uppercase;
+}
