@@ -9,6 +9,11 @@
   column-gap: 35px;
 }
 
+.successful-section.change-your-life .successful-card{
+  background-color: var(--white-20);
+  padding-block-end: 20px;
+}
+
 .successful-section .successful-title{
   margin: 0;
   font: var(--heading2-light);
