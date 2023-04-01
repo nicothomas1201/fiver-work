@@ -1,3 +1,28 @@
 @import url("../index.css");
 @import url("./blog-main.css");
 @import url("./blog-sidebar.css");
+
+.list-select-page{
+  font: var(--body1-regular);
+  color: #000;
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  justify-content: center;
+  margin-block-start: 57px;
+}
+
+.list-select-page span{
+  display: inline-block;
+}
+
+.list-select-page span.current{
+  background-color: var(--green);
+  inline-size: 30px;
+  block-size: 30px;
+  color: var(--white-10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
