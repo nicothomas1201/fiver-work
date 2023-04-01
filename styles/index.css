@@ -13,6 +13,7 @@
 @import url("./successful-section.css");
 @import url("./packages-section.css");
 @import url("./footer.css");
+@import url("./about-me/hero-about.css");
 
 :root{
   --black-10: #245657;
