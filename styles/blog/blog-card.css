@@ -22,6 +22,40 @@
   margin-block: 16px;
 }
 
+.blog-card .blog-info{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-info .info-details{
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.info-details .info-user, .info-calendar{
+  display: flex;
+  gap: 3.5px;
+  align-items: center;
+  font: var(--body1-regular);
+  color: #0D1D1E;
+  font-size: 12px;
+}
+
+.blog-info .info-topics{
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.info-topics .button-secondary{
+  padding-block: 5px;
+  font-size: 12px;
+  text-transform: none; 
+}
+
 .blog-card-text{
   font: var(--body1-light);
   font-size: 12px;

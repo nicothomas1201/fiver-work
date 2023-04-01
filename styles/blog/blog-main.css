@@ -4,6 +4,7 @@
   display: grid;
   grid-template-columns: 1fr 242px;
   gap: 16px;
+  padding-block: 48px;
 }
 
 .blog-list{
