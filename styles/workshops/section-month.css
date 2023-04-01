@@ -1,0 +1,33 @@
+@import url('./place-card.css');
+
+.section-month{
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, max-content);
+  grid-template-areas: "title title title";
+  column-gap: 53px;
+  row-gap: 25px;
+}
+
+.section-month.none{
+  display: block;
+}
+
+.section-month.none .none-title{
+  font: var(--body1-bold);
+  text-align: center;
+  color: var(--black-10);
+  margin-block-end: 0;
+}
+
+.section-month.none{
+  padding-block-end: 119px;
+}
+
+.section-month-title{
+  grid-area: title;
+  font: var(--body1-bold);
+  color: var(--black-10);
+  margin: 0;
+}

@@ -1,2 +1,11 @@
 @import url('../index.css');
 @import url('./hero-workshops.css');
+@import url('./section-month.css');
+
+.workshops-main{
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 106px;
+  padding-block-end: 111px;
+}

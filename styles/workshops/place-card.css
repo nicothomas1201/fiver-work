@@ -1,0 +1,41 @@
+.place-card-header{
+  /* border: 1px solid red */
+  padding-block-end: 15px;
+  border-block-end: 0.5px solid #E9E9E9;
+}
+
+.place-card-date{
+  font: var(--heading2-light);
+  color: #738A8A;
+  margin: 0;
+}
+
+.place-card-place{
+  font: var(--body1-bold);
+  margin-block: 6px;
+}
+
+.place-card-time{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font: var(--body1-light);
+}
+
+.place-card-content{
+  padding-block-start: 25px;
+}
+
+.place-content-title{
+  margin: 0;
+  margin-block-end: 10px;
+  font: var(--body1-bold);
+  color: var(--green);
+}
+
+.place-content-text{
+  margin: 0;
+  font: var(--body1-regular);
+  font-size: 12px;
+  color: var(--black-10);
+}
