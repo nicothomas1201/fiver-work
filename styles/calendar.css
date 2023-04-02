@@ -19,6 +19,7 @@
   margin: 0;
   flex: 1;
   /* padding-inline: ; */
+  /* border: 1px solid red; */
 }
 
 table {
@@ -41,4 +42,37 @@ tbody td {
 
 tbody td:hover {
   background-color: #f2f2f2;
+}
+
+.calendar.meet-me{
+  background-color: #02BD56;
+  color: var(--white-10);
+  box-sizing: border-box;
+  inline-size: 100%;
+  block-size: 100%;
+  padding: 34px 22px;
+  flex: 1;
+}
+
+.calendar.meet-me .calendar-header{
+  margin: 0;
+  margin-block-end: 22px;
+}
+
+.calendar.meet-me .calendar-header h4{
+  color: var(--white-10);
+}
+
+
+.calendar.meet-me table{
+  margin: 0;
+}
+
+.calendar.meet-me thead th{
+  padding-block-end: 10px;
+  border-block-end: 0.5px solid #DBDBDB;
+}
+
+.calendar.meet-me tbody td{
+  padding: 15px 12px;
 }

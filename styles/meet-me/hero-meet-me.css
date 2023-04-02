@@ -1,13 +1,62 @@
 .hero-meet-me{
   /* border: 1px solid red; */
-  padding-block-start: 88px;
+  padding-block: 88px 100px;
 }
 
-.hero-meet-main{
-  /* border: 1px solid red; */
+.hero-meet-main-content{
+  display: flex;
+  align-items: center;
+  gap: 60px;
 }
+
+
+.hero-meet-calendar-section{
+  display: flex;
+  max-block-size: 320px;
+  /* block-size: 100vh; */
+}
+
+.meet-calendar-section-text{
+  background-color: #009E65;
+  color: var(--white-10);
+  padding: 41px 22px;
+  box-sizing: border-box;
+  max-inline-size: 320px;
+}
+
+.calendar-section-title{
+  font: var(--body1-bold);
+  margin-block-start: 0;
+  margin-block-end: 7px;
+}
+
+.calendar-section-paragraph{
+  /* color: red */
+  font: var(--body1-regular);
+  font-size: 12px;
+  margin: 0;
+}
+
 
 .meet-main-title{
   font: var(--heading2-light);
   margin: 0;
+  color: var(--black-10);
+  margin-block: 54px;
+}
+
+.meet-img-container{
+  inline-size: 100%;
+  max-inline-size: 250px;
+  max-block-size: 320px;
+  background-color: #F8F8F8;
+  /* flex: 1; */
+  block-size: 100vh;
+}
+
+.meet-img-container img{
+  vertical-align: middle;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
 }
