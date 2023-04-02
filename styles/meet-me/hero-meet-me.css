@@ -1,0 +1,13 @@
+.hero-meet-me{
+  /* border: 1px solid red; */
+  padding-block-start: 88px;
+}
+
+.hero-meet-main{
+  /* border: 1px solid red; */
+}
+
+.meet-main-title{
+  font: var(--heading2-light);
+  margin: 0;
+}
