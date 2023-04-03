@@ -13,7 +13,7 @@
 .hero-meet-calendar-section{
   display: flex;
   max-block-size: 320px;
-  /* block-size: 100vh; */
+  inline-size: 100%;
 }
 
 .meet-calendar-section-text{
@@ -21,7 +21,8 @@
   color: var(--white-10);
   padding: 41px 22px;
   box-sizing: border-box;
-  max-inline-size: 320px;
+  /* max-inline-size: 320px; */
+  inline-size: 100%;
 }
 
 .calendar-section-title{

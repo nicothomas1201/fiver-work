@@ -1,0 +1,6 @@
+.section-meet-contact{
+  display: grid;
+  grid-template-columns: 238px auto;
+  grid-template-rows: max-content;
+}
+
