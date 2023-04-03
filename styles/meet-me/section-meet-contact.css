@@ -2,5 +2,94 @@
   display: grid;
   grid-template-columns: 238px auto;
   grid-template-rows: max-content;
+  column-gap: 146px;
+  padding-block-end: 103px;
+  border-block-end: .5px solid var(--red);
+  /* margin: 10px; */
 }
 
+.section-meet-contact .meet-contact-title{
+  font: var(--heading3-bold);
+  color: var(--black-20);
+  margin: 0;
+  margin-block-end: 35px;
+}
+
+.meet-info-details{
+  inline-size: 100%;
+  color: var(--black-20);
+  padding-block-end: 17px;
+  border-block-end: 1px solid #ECECEC;
+}
+
+.meet-info-details .subtitle{
+  font: var(--body1-bold);
+  margin: 0;
+}
+
+.meet-info-details span{
+  font: var(--body1-regular);
+}
+
+.meet-info-list{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-block-start: 28px;
+
+}
+
+.meet-info-item{
+  font: var(--body1-regular);
+  color: var(--black-20);
+  display: flex;
+  gap: 17px;
+  align-items: center;
+}
+
+.meet-form{
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.meet-form .group-name{
+  inline-size: 100%;
+  display: flex;
+  gap: 25px;
+}
+
+.meet-form .group-name input{
+  background-color: var(--white-10);
+  font: var(--body1-regular);
+  padding: 14px 10px;
+  inline-size: 100%;
+  border: 1px solid #EAEAEA;
+}
+
+.meet-form .group-name input::placeholder{
+  color: #738A8A;
+  font: var(--body1-light);
+}
+
+.meet-form textarea{
+  inline-size: 100%;
+  resize: none;
+  block-size: 122px;
+  box-sizing: border-box;
+  padding: 12px;
+  font: var(--body1-regular);
+  border: 1px solid #EAEAEA;
+}
+
+.meet-form textarea::placeholder{
+  color: #738A8A;
+  font: var(--body1-light);
+}
+
+.meet-form .button-primary{
+  align-self: flex-end;
+}
