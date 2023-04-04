@@ -20,7 +20,7 @@
 
 .header-info-contact{
   display: flex;
-  justify-content: end;
+  justify-content: center;
   gap: 31px;
   margin-block-end: 10px;
 }
@@ -35,9 +35,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
+  gap: 16px;
 }
-
-
 
 .header-list{
   display: flex;
@@ -60,5 +60,17 @@
 .header-item.active a{
   color: var(--black-20);
   border-block-end-color: var(--green);
+
+}
+
+@media screen and (min-width: 1381px){
+  .header-info-contact{
+    justify-content: flex-end;
+  }
+
+  .header-content-container{
+    flex-direction: row;
+    gap: 0;
+  }
 
 }
