@@ -3,3 +3,9 @@
   margin-inline: 227px;
   /* max-inline-size: ; */
 }
+/* 
+@media screen and (min-width: 1434px){
+  .wrapper{
+    margin-inline: 32px;
+  }
+} */
