@@ -1,11 +1,11 @@
 .wrapper{
   /* inline-size: 100%; */
-  margin-inline: 227px;
+  margin-inline: 24px;
   /* max-inline-size: ; */
 }
-/* 
-@media screen and (min-width: 1434px){
+
+@media screen and (min-width: 1093px){
   .wrapper{
-    margin-inline: 32px;
+    margin-inline: 227px;
   }
-} */
+}

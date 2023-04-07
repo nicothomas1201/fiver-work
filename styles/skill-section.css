@@ -8,6 +8,9 @@
   padding-block-start: 92px;
   padding-block-end: 50px;
   gap: 41px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .skill-section img{
@@ -31,4 +34,15 @@
   color: var(--black-20);
   margin-block-start: 0;
   margin-block-end: 30px;
+}
+
+@media screen and (min-width: 1019px) {
+
+  .skill-section{
+    flex-direction: row;
+    gap: 41px;
+    text-align: unset;
+  }
+
+  
 }

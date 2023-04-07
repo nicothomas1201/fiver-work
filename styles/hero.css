@@ -18,8 +18,9 @@
   gap: 27px;
   box-sizing: border-box;
   overflow: hidden;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: space-between;
+  align-content: center;
 }
 
 .hero .hero-span{
@@ -30,7 +31,7 @@
 .hero .hero-title{
   font: var(--heading1);
   color: var(--black-10);
-  margin-block: 50px;
+  margin-block: 16px;
 }
 
 .hero-link{
@@ -77,6 +78,10 @@
     flex-direction: row;
   }
 
+  .hero .hero-title{
+    margin-block: 50px;
+  }
+
   .hero .hero-person{
     transform: translateX(-30%);
   }
@@ -95,7 +100,7 @@
   }
 
   .hero .hero-person{
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
   
   
