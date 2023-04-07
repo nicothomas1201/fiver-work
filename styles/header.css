@@ -45,6 +45,8 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header-item a{
@@ -72,5 +74,11 @@
     flex-direction: row;
     gap: 0;
   }
+}
 
+@media screen and (min-width: 740px) {
+  .header-list{
+    flex-direction: row;
+  }
+    
 }

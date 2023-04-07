@@ -34,6 +34,7 @@
   gap: 21px;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .cta-form .cta-input-form{
@@ -44,10 +45,21 @@
   color: var(--green-10);
   box-sizing: border-box;
   block-size: 48px;
+  inline-size: 100%;
 }
 
 .cta-form .button-primary{
   box-sizing: border-box;
   max-block-size: 48px;
   padding-block: 15px;
+}
+
+@media screen and (min-width: 669px) {
+  .cta .cta-form{
+    flex-direction: row;
+  }
+
+  .cta-form .cta-input-form{
+    inline-size: unset;
+  }
 }
