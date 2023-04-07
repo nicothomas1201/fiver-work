@@ -24,19 +24,21 @@
 
 .five-steps-content-list{
   display: flex;
-  align-items: flex-end;
-  /* text-align: center; */
+  align-items: center;
   gap: 13px;
   margin-block-end: 20px;
   list-style: none;
   margin: 0;
   padding: 0;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .five-steps-content{
   display: flex;
   flex-direction: column;
   align-items: start;
+  align-items: center;
 }
 
 .five-steps-content .content-graph{
@@ -88,3 +90,17 @@
   font-size: 12px;
 }
 
+@media screen and (min-width: 1456px) {
+
+  .five-steps-content-list{
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: unset;
+  }
+
+  .five-steps-content{
+    align-items: unset; 
+  }
+
+  
+}

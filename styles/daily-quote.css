@@ -7,6 +7,9 @@
   /* display: flex; */
   position: relative;
   margin-block-end: 70px;
+  box-sizing: border-box;
+  padding: 16px;
+  text-align: center;
 }
 
 .daily-bgGreen{
