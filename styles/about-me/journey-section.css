@@ -4,6 +4,11 @@
   align-items: start;
   padding-block-start: 90px;
   padding-block-end: 96px;
+  gap: 32px;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .journey-content{
@@ -25,4 +30,16 @@
 
 .journey-video video{
   border: 1px solid red
+}
+
+
+
+@media screen and (min-width: 1227px) {
+  .journey-section{
+    flex-direction: row;
+    text-align: unset;
+    align-items: unset;
+    justify-content: unset;
+  }
+  
 }

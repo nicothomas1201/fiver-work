@@ -26,9 +26,9 @@
 
 .hero-about .hero-about-main{
   display: flex;
-  gap: 56px;
+  flex-direction: column;
+  gap: 16px;
   align-items: center;
-  padding-inline-start: 35px;
 }
 
 .hero-about-main .hero-about-img{
@@ -60,4 +60,14 @@
   font-size: 12px;
   margin-block-start: 41px;
   margin-block-end: 54px;
+}
+
+
+@media screen and (min-width: 682px) {
+  .hero-about-main{
+    flex-direction: row;
+    padding-inline-start: 35px;
+    gap: 56px;
+  }
+  
 }
