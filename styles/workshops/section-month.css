@@ -1,13 +1,16 @@
 @import url('./place-card.css');
 
-.section-month{
-  /* border: 1px solid red; */
+/* .section-month{
+  
+} */
+
+.place-card-container{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, max-content);
-  grid-template-areas: "title title title";
-  column-gap: 53px;
-  row-gap: 25px;
+  grid-template-columns: repeat(auto-fill, 293px);
+  grid-auto-rows: auto;
+  row-gap: 60px;
+  column-gap: 50px;
+  place-content: center;
 }
 
 .section-month.none{
@@ -30,4 +33,6 @@
   font: var(--body1-bold);
   color: var(--black-10);
   margin: 0;
+  margin-block-end: 27px;
 }
+

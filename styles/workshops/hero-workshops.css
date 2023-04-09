@@ -8,6 +8,8 @@
   color: var(--black-10);
   gap: 25px;
   margin-block-start: 50px;
+  flex-direction: column;
+  text-align: center;
 }
 
 .hero-workshops-title{
@@ -20,4 +22,14 @@
   margin: 0;
   font: var(--body1-regular);
   color: inherit;
+}
+
+
+
+@media screen and (min-width: 1183px) {
+  .hero-workshops-main{
+    flex-direction: row;
+  }
+
+  
 }

@@ -1,3 +1,8 @@
+.place-card{
+  max-inline-size: 293px;
+  inline-size: 100%;
+}
+
 .place-card-header{
   /* border: 1px solid red */
   padding-block-end: 15px;
