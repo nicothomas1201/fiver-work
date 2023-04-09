@@ -1,0 +1,87 @@
+.calendar-meet-me{
+  background-color: #02BD56;
+  color: var(--white-10);
+  block-size: 235.3px;
+  padding-block-start: 38px;
+  padding-inline: 22px;
+}
+
+.calendar-meet-me .calendar-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: var(--body1-bold);
+  color: var(--white-10);
+  max-inline-size: 271px;
+  inline-size: 100%;
+  margin: auto;
+  text-align: center;
+  margin-block-end: 22px;
+}
+
+.calendar-meet-me-container{
+  max-inline-size: 271px;
+  inline-size: 100%;
+  border-collapse: collapse;
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  grid-auto-rows: auto;
+  text-align: center;
+  place-content: center;
+  place-items: center;
+  column-gap: 17px;
+  row-gap: 10px;
+  position: relative;
+  font: var(--body1-regular);
+  font-size: 10px;
+  line-height: normal;
+  /* block-size: 235.3px; */
+}
+
+.calendar-meet-me-container::before{
+  position: absolute;
+  content: "";
+  inline-size: 100%;
+  border-block-end: 1px solid #DBDBDB;
+  top: 22px;
+}
+
+
+
+.calendar-meet-me-container .months-title{
+  color: var(--white-10);
+  font:  var(--body1-bold);
+  font-size: 10px;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+  padding-block-end: 10px;
+}
+
+  
+
+
+
+/* .calendar.meet-me{
+  
+  box-sizing: border-box;
+  inline-size: 100%;
+  block-size: 100%;
+  padding: 34px 22px;
+  flex: 1;
+}
+
+
+
+.calendar.meet-me table{
+  margin: 0;
+}
+
+.calendar.meet-me thead th{
+  padding-block-end: 10px;
+  border-block-end: 0.5px solid #DBDBDB;
+}
+
+.calendar.meet-me tbody td{
+  padding: 15px 12px;
+} */
