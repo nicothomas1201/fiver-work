@@ -24,14 +24,17 @@
 }
 
 .table-container{
+  inline-size: 100%;
   overflow: auto;
+  margin: auto;
 }
 
 table {
   border-collapse: collapse;
-  margin: 0 auto;
   inline-size: 100%;
   max-inline-size: 744px;
+  margin: auto;
+
 }
 
 thead th {
