@@ -1,8 +1,9 @@
 .footer{
   display: flex;
-  align-items: center;
-  text-align: center;
+  /* align-items: center; */
+  /* text-align: center; */
   background-color: var(--white-20);
+  flex-direction: column;
 }
 
 .footer .rights-text{
@@ -18,7 +19,7 @@
   font: var(--heading3-regular);
   padding-block: 24px;
   inline-size: 100%;
-  max-inline-size: 563px;
+ 
   border: none;
   cursor: pointer;
   display: flex;
@@ -29,4 +30,16 @@
 
 .footer .to-top img{
   vertical-align: middle;
+}
+@media screen and (min-width: 969px) {
+  .footer{
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer .to-top{
+    max-inline-size: 563px;
+  }
+  
 }
