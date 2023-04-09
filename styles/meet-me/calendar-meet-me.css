@@ -4,6 +4,11 @@
   block-size: 235.3px;
   padding-block-start: 38px;
   padding-inline: 22px;
+  box-sizing: border-box;
+  max-inline-size: 308px;
+  inline-size: 100%;
+  block-size: 320px;
+  
 }
 
 .calendar-meet-me .calendar-header{

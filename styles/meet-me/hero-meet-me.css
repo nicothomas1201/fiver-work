@@ -4,6 +4,7 @@
 
 .hero-meet-main-content{
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 32px;
   /* border: 1px solid red; */
@@ -13,8 +14,10 @@
 
 .hero-meet-calendar-section{
   display: flex;
-  max-block-size: 320px;
   inline-size: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .meet-calendar-section-text{
@@ -22,8 +25,8 @@
   color: var(--white-10);
   padding: 41px 22px;
   box-sizing: border-box;
-  /* max-inline-size: 320px; */
-  inline-size: 100%;
+  inline-size: 308px;
+  block-size: 320px;
 }
 
 .calendar-section-title{
@@ -61,6 +64,12 @@
   inline-size: 100%;
   block-size: 100%;
   object-fit: cover;
+}
+
+@media screen and (min-width: 649px) {
+  .hero-meet-calendar-section{
+    flex-direction: row;
+  }  
 }
 
 @media screen and (min-width: 1016px) {
