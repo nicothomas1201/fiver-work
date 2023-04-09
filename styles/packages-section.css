@@ -10,9 +10,11 @@
 }
 
 .packages-container{
-  display: grid;
-  grid-template-columns: max-content 1fr;
-  column-gap: 21px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;  
 }
 
 .package-info .package-subtitle{
@@ -38,9 +40,10 @@
 
 .package-cards-container{
   display: flex;
-  gap: 16px;
+  gap: 32px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center ;
+  flex-direction: column;
 }
 
 .package-cards-container .group{
@@ -140,4 +143,20 @@
   transform: translateY(-50%);
   font: var(--body1-regular);
   font-size: 12px;
+}
+
+@media screen and (min-width: 695px) {
+  .package-cards-container{
+    flex-direction: row;
+  }
+  
+}
+
+@media screen and (min-width: 1037px){
+  .packages-container{
+    display: grid;
+    grid-template-columns: max-content minmax(643px, 1fr);
+    column-gap: 21px;
+    align-items: start;
+  }
 }
