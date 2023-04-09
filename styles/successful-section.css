@@ -1,12 +1,6 @@
 .successful-section{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, max-content);
-  grid-template-areas: "title title";
   padding-block-start: 101px;
   padding-block-end: 137px;
-  row-gap: 45px;
-  column-gap: 35px;
 }
 
 .successful-section.change-your-life .successful-card{
@@ -20,24 +14,38 @@
   grid-area: title;
 }
 
+.section-card{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.section-card:first-of-type{
+  margin-block-start: 32px;
+  margin-block-end: 32px;
+}
+
 .successful-card{
   display: flex;
-  gap: 20px;
+  gap: 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .successful-card .successful-img{
-  block-size: auto;
-  max-block-size: 110px;
-  inline-size: 100%;
-  max-inline-size: 110px;
-  aspect-ratio: 1/1;
   background-image: url('../assets/avatar-1.png');
-  border-radius: 50%;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 110px;
   background-position: center;
   margin-block-start: 27px;
   border: 5px solid #F1F1F1;
+  inline-size: 110px;
+  block-size: 110px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  
 }
 
 .successful-card .successful-text{
@@ -49,4 +57,30 @@
 
 .successful-content .quote-author{
   margin-inline-start: 30px;
+}
+
+@media screen and (min-width: 450px) {
+  .successful-card{
+    flex-direction: row;
+    gap: 20px;
+    justify-content: unset;
+    align-items: unset;
+    text-align: start;
+  }
+
+  
+}
+
+@media screen and (min-width: 1288px){
+  .section-card{
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .section-card:first-of-type{
+    margin-block-start: 54px;
+    margin-block-end: 45px;
+  }
+  
+
 }
