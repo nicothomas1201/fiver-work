@@ -13,6 +13,7 @@
 .info-section-main{
   /* border: 1px solid red; */
   display: flex;
+  flex-direction: column;
   gap: 16px;
 }
 
@@ -80,7 +81,7 @@
 
 .phone-container .phone-text{
   margin: 0;
-  font: var(--heading2-regular);
+  font: var(--heading3-regular);
   color: #0D1D1E;
 }
 
@@ -98,3 +99,17 @@
   align-items: center;
 }
 
+
+@media screen and (min-width: 646px) {
+  .info-section-main{
+    flex-direction: row;
+  }
+  
+}
+
+@media screen and (min-width: 834px) {
+  .phone-container .phone-text{
+    font: var(--heading2-regular);
+  }
+  
+}

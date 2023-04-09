@@ -10,15 +10,23 @@
   align-items: center;
   justify-content: center;
   margin-block-end: 96px;
+  box-sizing: border-box;
+  padding-inline: 9px;
 }
 
 .cta-change-title{
   margin: 0;
-  font: var(--heading2-regular);
+  font: var(--heading3-regular);
 }
 
 .cta-change .button-secondary{
   border-color: var(--white-10);
   color: inherit;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 630px){
+  .cta-change-title{
+    font: var(--heading2-regular)
+  }
 }

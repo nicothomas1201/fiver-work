@@ -11,9 +11,15 @@
 
 .hero-change-circles-section{
   display: flex;
-  gap: 9px;
+  gap: 32px;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.hero-change-circles-section > img{
+  /* border: 1px solid red; */
+  transform: rotate(90deg);
 }
 
 .hero-circle-group .hero-change-circle{
@@ -32,4 +38,17 @@
   margin-block: 0;
   margin-block-start: 19px; 
   text-align: center;
+}
+
+@media screen and (min-width: 909px) {
+  .hero-change-circles-section{
+    flex-direction: row;
+    gap: 9px;
+  }
+
+  .hero-change-circles-section > img{
+    /* border: 1px solid red; */
+    transform: rotate(0);
+  }
+  
 }
