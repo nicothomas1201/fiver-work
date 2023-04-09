@@ -1,8 +1,7 @@
 .section-meet-contact{
-  display: grid;
-  grid-template-columns: 238px auto;
-  grid-template-rows: max-content;
-  column-gap: 146px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
   padding-block-end: 103px;
   border-block-end: .5px solid var(--red);
   /* margin: 10px; */
@@ -59,7 +58,8 @@
 .meet-form .group-name{
   inline-size: 100%;
   display: flex;
-  gap: 25px;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .meet-form .group-name input{
@@ -67,6 +67,7 @@
   font: var(--body1-regular);
   padding: 14px 10px;
   inline-size: 100%;
+  box-sizing: border-box;
   border: 1px solid #EAEAEA;
 }
 
@@ -92,4 +93,26 @@
 
 .meet-form .button-primary{
   align-self: flex-end;
+}
+
+@media screen and (min-width: 762px) {
+  .section-meet-contact{
+    display: grid;
+    grid-template-columns: 238px auto;
+    grid-template-rows: max-content;
+    column-gap: 32px;
+  }
+
+  .meet-form .group-name{
+    flex-direction: row;
+    gap: 25px;
+  }
+  
+}
+
+@media screen and (min-width: 1142px){
+  .section-meet-contact{
+    column-gap: 146px;
+
+  }
 }
