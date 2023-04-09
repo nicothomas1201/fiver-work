@@ -13,14 +13,12 @@
   justify-content: center;
   align-items: center;
   inline-size: 100%;
-  max-inline-size: 824.050px;
+  max-inline-size: 744px;
 }
 
 .calendar-header h4{
   margin: 0;
   flex: 1;
-  /* padding-inline: ; */
-  /* border: 1px solid red; */
 }
 
 .table-container{
