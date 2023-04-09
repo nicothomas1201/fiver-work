@@ -4,7 +4,7 @@
   /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
-  align-items: start;
+  /* align-items: start; */
   gap: 55px;
   padding-block: 52px 65px;
 }
@@ -12,4 +12,8 @@
 .section-workshops-meet-title{
   font: var(--heading2-light);
   margin: 0;
+}
+
+.section-workshops-meet .button-secondary{
+  align-self: flex-start;
 }
