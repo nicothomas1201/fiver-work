@@ -1,0 +1,25 @@
+@import url("../index.css");
+
+.modal-appoinment{
+  max-inline-size: 800px;
+  inline-size: 100%;
+  block-size: 700px;
+  background-color: var(--white-10);
+  box-sizing: border-box;
+  padding-block: 55px 64px;
+  padding-inline: 60px;
+}
+
+.modal-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-header .modal-title{
+  font: var(--heading2-light);
+}
+
+.modal-header img{
+  cursor: pointer;
+}
