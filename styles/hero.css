@@ -1,11 +1,12 @@
 .hero-bg{
-  background: url('../assets/hero-bg-texture.png');
+  background: url('../assets/hero-bg.png');
   background-size: 100%;
   background-position: center;
-  background-repeat: repeat;
-  position: relative;
+  background-repeat: no-repeat;
   inline-size: 100%;
-  padding-block: 32px;
+  object-fit: contain;
+  /* border: 1px solid red; */
+  /* padding-block: 110px; */
 }
 
 .hero-bg .icon-header-calendar img{
@@ -18,9 +19,10 @@
   gap: 27px;
   box-sizing: border-box;
   overflow: hidden;
-  flex-direction: column-reverse;
-  justify-content: space-between;
+  /* flex-direction: column-reverse; */
+  justify-content: start;
   align-content: center;
+  padding-block: 110px;
 }
 
 .hero .hero-span{
@@ -29,9 +31,10 @@
 }
 
 .hero .hero-title{
-  font: var(--heading1);
+  font: var(--heading2-bold);
   color: var(--black-10);
   margin-block: 16px;
+
 }
 
 .hero-link{
@@ -42,72 +45,25 @@
   text-transform: uppercase;
 } 
 
-.hero .hero-person{
-  background: url("../assets/persona-hero.png");
-  inline-size: 359px;
-  block-size: 480px;
-  z-index: 1;
-  background-repeat: no-repeat;
-  background-position: flex-end;
-  order: 1;
-}
 
 
-.hero .hero-imageBg{
-  position: absolute;
-  max-inline-size: 550px;
-  right: 0;
-  block-size: 480px;
-  inline-size: 100%;
-  background: url('../assets/bg-hero.png');
-  background-repeat: no-repeat;
-  background-size: 100%; 
-  display: none;
-}
+
+
 
 
 
 /* dispositivos de mas de 1438px */
-@media screen and (min-width: 1438px){
+@media screen and (min-width: 906px){
   .hero-bg{
     max-block-size: 480px;
-    padding-block: 0;
   }
 
   .hero{
-    flex-direction: row;
+    /* flex-direction: row; */
   }
 
   .hero .hero-title{
     margin-block: 50px;
+    font: var(--heading1);
   }
-
-  .hero .hero-person{
-    transform: translateX(-30%);
-  }
-
-  .hero .hero-imageBg{
-    max-inline-size: 550px;
-    display: unset;
-  }
-}
-
-/* dispositivos de mas de 1617px */
-@media screen and (min-width: 1617px) {
-
-  .hero-bg{
-    padding-block: 0;
-  }
-
-  .hero .hero-person{
-    transform: translateX(-50%);
-  }
-  
-  
-  
-  .hero .hero-imageBg{
-    max-inline-size: 600px;
-    
-  }
-  
 }
