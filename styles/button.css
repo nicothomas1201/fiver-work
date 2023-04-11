@@ -7,6 +7,7 @@
   cursor: pointer;
   border-radius: 47px;
   border: 1px solid var(--green);
+  text-decoration: none;
 }
 
 .button-secondary{
@@ -19,6 +20,7 @@
   border-radius: 47px;
   background-color: transparent;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .button-icon{
