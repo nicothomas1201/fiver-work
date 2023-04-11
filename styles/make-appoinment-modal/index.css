@@ -18,8 +18,71 @@
 
 .modal-header .modal-title{
   font: var(--heading2-light);
+  margin: 0;
 }
 
 .modal-header img{
   cursor: pointer;
+}
+
+.modal-subtitle{
+  font: var(--body1-semibold);
+  margin-block: 15px  50px;
+}
+
+.modal-time-section{
+  display: flex;
+  justify-content: space-between;
+  padding-block: 11px;
+  border-block-end: 1px solid #EFEFEF;
+}
+
+.modal-time-section .time{
+  font: var(--body1-semibold);
+  color: var(--black-10);
+}
+
+.modal-time-section .time.not-avaliable{
+  color: #E1E1E1;
+}
+
+.modal-time-section .disponibility{
+  font: var(--body1-semibold);
+  color: #DCDCDC;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.form-modal{
+  inline-size: 100%;
+  margin-block-start: 29px; 
+}
+
+.name-section,.email-number{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.form-modal{
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+
+.form-modal input{
+  padding-inline: 18px;
+  padding-block: 11px;
+  font: var(--body1-regular);
+  inline-size: 100%;
+  border: 1px solid #F3F3F3;
+}
+
+.form-modal input::placeholder{
+  color: #738A8A; 
+}
+
+.form-modal button{
+  align-self: flex-end;
+  margin-block-start: 10px;
 }
