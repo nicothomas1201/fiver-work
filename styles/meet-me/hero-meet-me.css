@@ -7,7 +7,6 @@
   justify-content: space-between;
   align-items: center;
   gap: 32px;
-  /* border: 1px solid red; */
   flex-direction: column;
 }
 
@@ -36,7 +35,6 @@
 }
 
 .calendar-section-paragraph{
-  /* color: red */
   font: var(--body1-regular);
   font-size: 12px;
   margin: 0;
@@ -55,7 +53,6 @@
   max-inline-size: 250px;
   max-block-size: 320px;
   background-color: #F8F8F8;
-  /* flex: 1; */
   block-size: 100vh;
 }
 

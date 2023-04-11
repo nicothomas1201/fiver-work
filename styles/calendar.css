@@ -36,13 +36,11 @@
 }
 
 .calendar thead th {
-  /* padding: 10px; */
   padding-block-end: 37px;
   border-block-end: 2px solid #ECECEC;
 }
 
 .calendar tbody td {
-  /* border: 1px solid #ddd; */
   padding: 22px 50px;
   font: var(--body1-light);
 

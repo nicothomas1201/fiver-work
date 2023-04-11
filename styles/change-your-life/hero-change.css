@@ -18,7 +18,6 @@
 }
 
 .hero-change-circles-section > img{
-  /* border: 1px solid red; */
   transform: rotate(90deg);
 }
 
@@ -32,7 +31,6 @@
 }
 
 .hero-circle-group .hero-circle-text{
-  /* border: 1px solid red ; */
   font: var(--heading3-light);
   color: var(--black-10);
   margin-block: 0;
@@ -47,7 +45,6 @@
   }
 
   .hero-change-circles-section > img{
-    /* border: 1px solid red; */
     transform: rotate(0);
   }
   

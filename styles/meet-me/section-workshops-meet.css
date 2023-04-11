@@ -1,10 +1,8 @@
 @import url("../workshops/section-month.css");
 
 .section-workshops-meet{
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
-  /* align-items: start; */
   gap: 55px;
   padding-block: 52px 65px;
 }

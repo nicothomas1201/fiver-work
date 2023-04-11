@@ -4,7 +4,6 @@
   margin: auto;
   background: url('../assets/code-bg.png');
   block-size: 240px;
-  /* display: flex; */
   position: relative;
   margin-block-end: 70px;
   box-sizing: border-box;

@@ -10,7 +10,6 @@
 
 .header .icon-header-calendar{
   position: absolute;
-  /* border: 1px solid red; */
   bottom: 0;
   right: 0;
   z-index: 2;

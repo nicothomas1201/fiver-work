@@ -85,7 +85,6 @@
   display: flex;
   flex-direction: column;
   padding-inline: 15px;
-  /* align-items: center; */
 }
 
 .package-card-list .text{
@@ -95,7 +94,6 @@
 
 .package-card-list li{
   padding-block: 15px;
-  /* inline-size: 100%; */
   border-block-end: 1px solid #E9E9E9;
   text-align: center;
   box-sizing: border-box;
@@ -110,7 +108,6 @@
 }
 
 .package-card.green{
-  /* border: 1px solid red; */
   background-color: var(--green);
   color: var(--white-10);
   position: relative;

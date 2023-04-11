@@ -1,7 +1,5 @@
 .footer{
   display: flex;
-  /* align-items: center; */
-  /* text-align: center; */
   background-color: var(--white-20);
   flex-direction: column;
 }
